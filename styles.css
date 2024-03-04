@@ -130,3 +130,33 @@ footer {
 .text-center {
   text-align: center;
 }
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 10px;
+  border: 2px solid #ff6384; /* Un rouge plus doux */
+  text-align: left;
+}
+
+th {
+  background-color: #ff6384; /* Rouge */
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ffd3e2; /* Un rose pâle plus clair pour l'alternance */
+}
+
+tr:hover {
+  background-color: #ffbec5; /* Un rose/rouge très clair pour l'effet hover */
+}
+
+img{
+  width:60px;
+  height:60px;
+}
